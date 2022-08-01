@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+     <head>
+        <title>FORMULARIO DE PREGUNTAS</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cuestionario</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manjari:wght@100&display=swap" rel="stylesheet">
+        <link rel="icon" type="../enfermera/jpg" href="../images/favicon.jpg">
+        <link rel="stylesheet" href="stylepreguntas.css">
+
+     </head>
+<body>
+    <div id="container">
+        <header>
+            <h1>FORMULARIO DE PREGUNTAS</h1>
+            <P>RESPONDE LAS SIGUIENTES PREGUNTAS</P>
+        </header> 
+        <section>
+        <div id="resultado"></div>
+        <form name="quizForm" onsubmit="return verificarRespuestas()">
+      
+            <h3>1.Angular es definido como:</h3>
+            <input type="radio" name="p1" value="a">a. Framework <br/>                                                                                
+            <input type="radio" name="p1" value="b">b. Libreria <br/>
+            <input type="radio" name="p1" value="c">c. FLenguaje de programacion <br/>
+            <input type="radio" name="p1" value="d">d. Ninguno de los anteriores <br/>
+        
+            <h3>2.Javascrip es lo mismo que java:</h3>
+            <input type="radio" name="p2" value="a">a. si <br/>                                                                                
+            <input type="radio" name="p2" value="b">b. no <br/>
+            <input type="radio" name="p2" value="c">c. aveces <br/>
+            <input type="radio" name="p2" value="d">d. casi siempre <br/>
+
+            <h3>3. Dado el siguiente arreglo: var arr = [a,b,c,d]. ¿Cual de las siguientes opciones
+                nos permite obtener el ultimo elemento del arreglo?:</h3>
+
+            <input type="radio" name="p3" value="a">a. arr[1] <br/>                                                                                
+            <input type="radio" name="p3" value="b">b. arr[arr.length]<br/>
+            <input type="radio" name="p3" value="c">c. arr[arr.length - 1]<br/>
+            <input type="radio" name="p3" value="d">d. arr.length <br/>
+
+            <h3>4.¿es posible utilizar redux en aplicaciones de angular:</h3>
+            <input type="radio" name="p4" value="a">a. si <br/>                                                                                
+            <input type="radio" name="p4" value="b">b. no <br/>
+            
+            <h3>5.¿ionic esta basado en React</h3>
+            <input type="radio" name="p2" value="a">a. si <br/>                                                                                
+            <input type="radio" name="p2" value="b">b. no <br/>
+            
+            <input type="submit" value="Enviar">
+        </form>
+        </section>
+    </div>
+    <script src="scriptpreguntas.js"></script>
+    <a href="../inicio.html"><strong><h2>Volver al Inicio </h2></strong></a>
+</text-align:center>
+</body>
+
+<script src="scriptpreguntas.js"></script>
+</html>

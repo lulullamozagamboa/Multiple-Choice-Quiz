@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog - Personal Blog Lucia Llamoza Gamboa</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.min.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body class="light-theme">
+
+  <!--
+    - #HEADER
+  -->
+
+  <header>
+
+    <div class="container">
+
+      <nav class="navbar">
+
+        <a href="#">
+          <img src="./assets/images/logo-light.svg" alt="Devblog's logo" width="150" height="40" class="logo-light">
+          <img src="./assets/images/logo-dark.svg" alt="Devblog's logo" width="150" height="40" class="logo-dark">
+        </a>
+
+        <div class="btn-group">
+
+          <button class="theme-btn theme-btn-mobile light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+          <button class="nav-menu-btn">
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="flex-wrapper">
+
+          <ul class="desktop-nav">
+
+            <li>
+              <a href="#" class="nav-link">principal</a>
+            </li>
+
+            <li>
+              <a href="#" class="nav-link">acerca de mi</a>
+            </li>
+
+            <li>
+              <a href="#" class="nav-link">Contactame</a>
+            </li>
+
+          </ul>
+
+          <button class="theme-btn theme-btn-desktop light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="mobile-nav">
+
+          <button class="nav-close-btn">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+          <div class="wrapper">
+
+            <p class="h3
+             nav-title">Main Menu</p>
+
+            <ul>
+              <li class="nav-item">
+                <a href="#" class="nav-link">principal</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">acerca de mi</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Contactame</a>
+              </li>
+            </ul>
+
+          </div>
+
+          <div>
+
+            <p class="h3 nav-title">Topics</p>
+
+            
+          </div>
+
+        </div>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+
+    <!--
+      - #HERO SECTION
+    -->
+
+    <div class="hero">
+
+      <div class="container">
+
+        <div class="left">
+
+          <h1 class="h1">
+            Hola soy <b>Lucia LLamoza&nbsp;Gamboa</b>.
+            <br>Enfermera Profesional
+          </h1>
+
+          <p class="h3">
+            Especializada en <abbr title="Accessibility">cuidados paleativos</abbr>
+            Universidad Nacional del Oeste
+          </p>
+
+          <div class="btn-group">
+            <a href="#" class="btn btn-primary">Contactame</a>
+            <a href="#" class="btn btn-secondary">acerca de mi</a>
+          </div>
+
+        </div>
+
+        <div class="right">
+
+          <div class="pattern-bg"></div>
+          <div class="img-box">
+            <img src="./assets/images/enfermera.jpg" alt="Julia Walker" class="hero-img">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="main">
+
+      <div class="container">
+
+        <!--
+          - BLOG SECTION
+        -->
+
+        <div class="blog">
+
+          <h2 class="h2">posteos de mi blog</h2>
+
+          <div class="blog-card-group">
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/csv.jpg.jfif" alt="Building microservices with Dropwizard, MongoDB & Docker"
+                  width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">blog personal</button>
+
+                <h3>
+                  <a href="#" class="h3">
+                    control de signos vitales
+                  </a>
+                </h3>
+
+                <p class="blog-text">
+                  Los signos vitales reflejan funciones esenciales
+                   del cuerpo, incluso el ritmo cardíaco, la
+                    frecuencia respiratoria, la temperatura y la presión arterial.
+                   Su proveedor de atención médica puede observar, medir 
+                   y vigilar sus signos vitales para evaluar su 
+                   nivel de funcionamiento físico
+                </p>
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/balancehidrico.png.jfif" alt="Fast web page loading on a $20 feature phone" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">blog personal</button>
+
+                <h3><a href="" class="h3">Balance Hidrico</a></h3>
+
+                <p class="blog-text">
+                  ¿Qué es el balance hídrico? Se conoce como balance hídrico al equilibrio que realiza 
+                  el cuerpo humano entre los líquidos que adquiere y los que 
+                  pierde de forma natural. Es decir, es el resultado obtenido entre las ingestas 
+                  de bebidas menos los desechos que pierde el cuerpo
+                </p>
+
+                <div class="wrapper-flex">
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/hyc.jfif" alt="Accessibility Tips for Web Developers" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">blog personal</button>
+
+                <h3><a href="" class="h3">higiene y conford</a></h3>
+
+                <p class="blog-text">
+                  El concepto de aseo y confort es un término muy amplio referido a diferentes actividades
+                   destinadas a la prevención de la enfermedad y la conservación de la salud. Entendida como sinónimo 
+                  de aseo, la higiene es el conjunto de actividades
+                   que el técnico de enfermería de nivel superior realiza para mantener la misma.
+                </p>
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/heridas.jfif" alt="Dynamically Securing Databases using Hashicorp Vault"
+                  width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">blog personal</button>
+
+                <h3><a href="" class="h3">curacion de heridas</a></h3>
+
+                <p class="blog-text">
+                  Actuación de Enfermería en el cuidado de las heridas Dejar 
+                  al aire la herida. Retirar el apósito anterior en el caso de que existiera.
+                   Es aconsejable humedecerlo para facilitar su retirada 
+                  sin causar mayor daño en la herida.
+                   Lavar con agua y jabón y aclarar abundantemente con agua, posteriormente secar bien.
+                </p>
+              </div>
+            </div>
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/gerontologia.jfif"
+                  alt="Adaptive Loading - Improving Web Performance on low-end devices" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+
+                <h3><a href="" class="h3">gerontologia</a></h3>
+
+                <p class="blog-text">
+                  ¿Qué hace la gerontología?
+                  Resultado de imagen para gerontologia
+                  La o el gerontólogo, es la persona profesional del área de la salud de manera integral
+                  que atiende la triada envejecimiento, vejez y persona mayor dentro de un
+                   contexto biológico, psicológico, social y espiritual.
+                </p>
+              </div>
+            </div>
+
+            <div>
+              <div class="social">
+                  <a href="#"><img src="./assets/images/facebook.png" alt="facebook"></a>
+                  <a href="https://www.youtube.com/watch?v=RxZNE0QoscY&feature=youtu.be"><img src="./assets/images/youtube.png" alt="youtube"></a>
+                  <a href="https://www.instagram.com/?hl=es"><img src="./assets/images/linkedin.png" alt="linkedin"></a>
+                  <a href="#"><img src="./assets/images/instagram.png" alt="instagram"></a>
+              </div>
+          </div>
+          
+      <!--
+    - #FOOTER
+  -->
+  <footer class="footer">
+    <div><h4> 2022 Llamoza Gamboa Lucia </h4></div>
+    <div><p class="foot">Enfermera. Todos los derechos reservados</p></div>
+    <div class="img1, zoom"><a href="principal.html"><h2>Contactame</h2></a></div>
+    </p>
+</footer>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.min.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
